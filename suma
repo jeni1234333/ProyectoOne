@@ -1,0 +1,27 @@
+<html>
+ <head>
+    <title>Suma</title>
+ </head>
+ 
+ <body>
+
+    <form method="post" action=""><br>
+        Primer numero:<br>
+        <input type="text" name="primer numero"><br>
+        Segundo numero:<br>
+        <input type="text" name="segundo numero"><br>
+        <input type="submit" value="sumar"><br>
+    </form>
+
+ </body>
+
+
+ <?php
+ $primernumero = $_POST['primer numero'];
+ $segundonumero = $_POST['segundo numero'];
+
+ $suma = primer numero + segundo numero;
+
+    echo "La suma de ".$primernumero."mas".$segundonumero." es igual a:" .$suma;
+
+</html>
